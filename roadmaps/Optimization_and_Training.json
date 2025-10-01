@@ -1,0 +1,11 @@
+{
+  "name": "Optimization & Training",
+  "description": "Understand how models are trained efficiently.",
+  "steps": [
+    { "concept": "GradientDescent", "note": "Begin with the simplest optimization method." },
+    { "concept": "SGD", "note": "Scale optimization using stochastic mini-batches." },
+    { "concept": "Momentum", "note": "Speed up SGD with momentum." },
+    { "concept": "Adam", "note": "Learn the adaptive optimizer widely used in practice." },
+    { "concept": "Transformer", "note": "See how optimizers enable training of large models." }
+  ]
+}

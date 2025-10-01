@@ -1,0 +1,12 @@
+{
+  "name": "ML Starter",
+  "description": "A path through the most essential machine learning fundamentals.",
+  "steps": [
+    { "concept": "LinearAlgebra", "note": "Start with the math foundations for machine learning." },
+    { "concept": "Calculus", "note": "Understand derivatives and gradients, key for optimization." },
+    { "concept": "Probability", "note": "Learn probability basics for uncertainty in ML." },
+    { "concept": "GradientDescent", "note": "Study how parameters are optimized using gradients." },
+    { "concept": "LinearRegression", "note": "Train your first regression model." },
+    { "concept": "MSE", "note": "Understand Mean Squared Error for regression evaluation." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Classification Path",
+  "description": "Learn the core models and losses for classification tasks.",
+  "steps": [
+    { "concept": "Probability", "note": "Review probability as the foundation for classification." },
+    { "concept": "LogisticRegression", "note": "Build your first classification model." },
+    { "concept": "CrossEntropy", "note": "Study the standard loss function for classification." },
+    { "concept": "MNIST", "note": "Practice classification on the MNIST handwritten digits dataset." },
+    { "concept": "CNN", "note": "Move to deep learning for image classification tasks." },
+    { "concept": "CIFAR10", "note": "Apply CNNs on CIFAR-10 for real-world image recognition." }
+  ]
+}
