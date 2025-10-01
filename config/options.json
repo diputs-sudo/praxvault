@@ -1,0 +1,93 @@
+{
+  "GradientDescent": {
+    "description": "Gradient Descent is a fundamental optimization algorithm that updates parameters by moving in the direction of the negative gradient of the loss.",
+    "category": "theory",
+    "related": ["SGD", "LinearRegression"],
+    "notebook": "vault/notes/theory/GradientDescent.md"
+  },
+  "SGD": {
+    "description": "Stochastic Gradient Descent (SGD) updates parameters using small random batches of data, making it scalable for large datasets.",
+    "category": "optimizer",
+    "related": ["GradientDescent", "Momentum", "Adam"],
+    "notebook": "vault/notes/optimizer/SGD.md"
+  },
+  "Momentum": {
+    "description": "Momentum is an extension of SGD that accumulates past gradients to speed up convergence and smooth oscillations.",
+    "category": "optimizer",
+    "related": ["SGD", "Adam"],
+    "notebook": "vault/notes/optimizer/Momentum.md"
+  },
+  "Adam": {
+    "description": "Adam (Adaptive Moment Estimation) combines momentum and RMSProp, adjusting learning rates adaptively for each parameter.",
+    "category": "optimizer",
+    "related": ["SGD", "Momentum"],
+    "notebook": "vault/notes/optimizer/Adam.md"
+  },
+  "MSE": {
+    "description": "Mean Squared Error is a loss function used in regression tasks, measuring the squared difference between predictions and targets.",
+    "category": "loss_functions",
+    "related": ["LinearRegression", "CrossEntropy"],
+    "notebook": "vault/notes/loss_functions/MSE.md"
+  },
+  "CrossEntropy": {
+    "description": "Cross-Entropy Loss is used for classification tasks, measuring the difference between predicted and true probability distributions.",
+    "category": "loss_functions",
+    "related": ["LogisticRegression", "Transformer"],
+    "notebook": "vault/notes/loss_functions/CrossEntropy.md"
+  },
+  "LinearRegression": {
+    "description": "Linear Regression is a basic model that fits a straight line to data for regression tasks.",
+    "category": "models",
+    "related": ["MSE", "GradientDescent"],
+    "notebook": "vault/notes/models/LinearRegression.md"
+  },
+  "LogisticRegression": {
+    "description": "Logistic Regression is a linear model for classification, using the sigmoid function to map inputs to probabilities.",
+    "category": "models",
+    "related": ["CrossEntropy", "MNIST"],
+    "notebook": "vault/notes/models/LogisticRegression.md"
+  },
+  "CNN": {
+    "description": "Convolutional Neural Networks are deep learning models designed for image recognition tasks.",
+    "category": "models",
+    "related": ["CIFAR10", "MNIST"],
+    "notebook": "vault/notes/models/CNN.md"
+  },
+  "Transformer": {
+    "description": "Transformers are neural architectures based on self-attention, widely used in NLP and beyond.",
+    "category": "models",
+    "related": ["CrossEntropy"],
+    "notebook": "vault/notes/models/Transformer.md"
+  },
+  "MNIST": {
+    "description": "MNIST is a dataset of handwritten digits (0–9), commonly used for training and testing classification models.",
+    "category": "datasets",
+    "related": ["LogisticRegression", "CNN"],
+    "notebook": "vault/notes/datasets/MNIST.md"
+  },
+  "CIFAR10": {
+    "description": "CIFAR-10 is an image dataset of 60,000 color images in 10 categories, used for image classification tasks.",
+    "category": "datasets",
+    "related": ["CNN"],
+    "notebook": "vault/notes/datasets/CIFAR10.md"
+  },
+  "LinearAlgebra": {
+    "description": "Linear Algebra provides the building blocks of ML, with vectors, matrices, and operations like dot products and matrix multiplication.",
+    "category": "theory",
+    "related": ["Calculus", "GradientDescent"],
+    "notebook": "vault/notes/theory/LinearAlgebra.md"
+  },
+  "Calculus": {
+    "description": "Calculus underlies optimization with derivatives, gradients, and the chain rule for backpropagation.",
+    "category": "theory",
+    "related": ["LinearAlgebra", "GradientDescent"],
+    "notebook": "vault/notes/theory/Calculus.md"
+  },
+  "Probability": {
+    "description": "Probability theory models uncertainty and randomness, providing the foundation for classification and statistical inference.",
+    "category": "theory",
+    "related": ["Statistics", "LogisticRegression", "CrossEntropy"],
+    "notebook": "vault/notes/theory/Probability.md"
+  }
+}
+

@@ -1,0 +1,8 @@
+{
+  "theory": ["LinearAlgebra", "Calculus", "Probability", "GradientDescent"],
+  "optimizers": ["SGD", "Momentum", "Adam"],
+  "loss_functions": ["MSE", "CrossEntropy"],
+  "regularization": ["Dropout", "BatchNorm"],
+  "models": ["LinearRegression", "LogisticRegression", "CNN", "Transformer"],
+  "datasets": ["MNIST", "CIFAR10"]
+}
